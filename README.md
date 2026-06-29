@@ -51,7 +51,7 @@ This project uses the Lung Cancer Dataset from Kaggle, published by Khwaish Saxe
 ### Dataset Variables
 
 | Feature | Data Type | Variable Category | Description |
-|---|---|---|---|
+|---|:---:|:---:|:---:|
 | id | Numerical / Identifier | Administrative | Unique patient identifier. |
 | age | Numerical | Demographic | Patient age. |
 | gender | Categorical | Demographic | Patient gender. |

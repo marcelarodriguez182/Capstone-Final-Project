@@ -139,7 +139,7 @@ The numerical variable analysis focused on `age`, `bmi`, and `cholesterol_level`
 </p>
 
 
-### Cholesterol Distribution
+### Cholesterol Level  Distribution
 
 <p align="center">
   <img src="Cholesterol%20Distribution.png" alt="Cholesterol Distribution" width="750">
@@ -177,11 +177,25 @@ Overall, the categorical analysis suggests that some variables, such as gender, 
 
 The correlation matrix shows that the strongest relationship in the dataset is between BMI and cholesterol_level, with a correlation value of 0.75. This indicates a strong positive relationship, meaning that patients with higher BMI values also tend to have higher cholesterol levels.
 Most of the other variables show very weak or near-zero correlations. Variables such as do not show strong linear relationships with the survival outcome. The correlation between the selected variables and survived is close to 0, suggesting that survival outcome is not strongly explained by simple linear relationships in this dataset.
-There are also weak positive correlations among some comorbidity variables. For example, hypertension has a small positive correlation with asthma, cirrhosis, and other_cancer, but these values are low and do not indicate strong relationships.Overall, the correlation matrix suggests that while BMI and cholesterol levels are strongly related, the selected variables do not exhibit strong linear correlations with the survival outcome. This finding helps explain why the predictive models later showed weak performance when trying to predict survived.
+There are also weak positive correlations among some comorbidity variables. For example, hypertension has a small positive correlation with asthma, cirrhosis, and other_cancer, but these values are low and do not indicate strong relationships. Overall, the correlation matrix suggests that while BMI and cholesterol levels are strongly related, the selected variables do not exhibit strong linear correlations with the survival outcome. This finding helps explain why the predictive models later showed weak performance when trying to predict survived.
+
+### Correlation Matrix
+
+<p align="center">
+  <img src="Corelation.png" alt="Correlation Matrix" width="750">
+</p>
+
 
 **6.4 BMI and Cholesterol Relationship**
 
-The scatter plot between BMI and cholesterol level supports the correlation matrix results. The graph shows two clear clusters: patients with a BMI below 30 tend to have cholesterol levels between approximately 150 and 240, while those with a BMI above 30 tend to have levels between approximately 240 and 300. This pattern suggests a strong positive relationship between BMI and cholesterol level in the dataset. However, the clear separation between the two clusters may also reflect the synthetic structure of the data. 
+The scatter plot between BMI and cholesterol level supports the correlation matrix results. The graph shows two clear clusters: patients with a BMI below 30 tend to have cholesterol levels between approximately 150 and 240, while those with a BMI above 30 tend to have levels between approximately 240 and 300. This pattern suggests a strong positive relationship between BMI and cholesterol level in the dataset. However, the clear separation between the two clusters may also reflect the data's synthetic structure. 
+
+### BMI vs Cholesterol
+
+<p align="center">
+  <img src="BMI%20vs%20Cholesterol.png" alt="BMI vs Cholesterol" width="750">
+</p>
+
 
 **6.5 Cross Tabulation Analysis**
 

@@ -206,7 +206,7 @@ Smoking status was also compared with cancer stage, and the results showed that 
 ### Cross-Tabulation Results
 
 | **Analysis**                    | **Category** | **Did Not Survive (%)** | **Survived (%)** | **Key Finding**                                                                                                                            |
-| ------------------------------- | ------------ | ----------------------: | ---------------: | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------- | :------------:| :----------------------: | :---------------: | ------------------------------------------------------------------------------------------------------------------------------------------ |
 | **Treatment Type vs. Survival** | Chemotherapy |                   78.13 |            21.87 | Survival rates are consistent across treatment types, indicating no substantial difference in outcomes.                                    |
 | **Treatment Type vs. Survival** | Combined     |                   77.99 |            22.01 | Combined therapy follows the overall survival distribution observed in the dataset.                                                        |
 | **Treatment Type vs. Survival** | Radiation    |                   77.94 |            22.06 | Radiation therapy shows survival rates comparable to other treatment options.                                                              |
@@ -228,7 +228,7 @@ Smoking status was also compared with cancer stage, and the results showed that 
 ### Smoking Status vs Cancer Stage
 
 | **Smoking Status** | **Stage I (%)** | **Stage II (%)** | **Stage III (%)** | **Stage IV (%)** | **Key Finding**                                                      |
-| ------------------ | --------------: | ---------------: | ----------------: | ---------------: | -------------------------------------------------------------------- |
+| ------------------ | :--------------: |:---------------: |:----------------: |:---------------: | -------------------------------------------------------------------- |
 | **Current Smoker** |           25.05 |            24.98 |             25.11 |            24.87 | Cancer stages are almost evenly distributed among current smokers.   |
 | **Former Smoker**  |           24.97 |            25.07 |             24.95 |            25.00 | No clear concentration of patients in any specific cancer stage.     |
 | **Never Smoked**   |           25.03 |            24.90 |             24.95 |            25.11 | Cancer stage distribution remains balanced across all stages.        |
@@ -251,7 +251,7 @@ Based on these results, the models are useful for educational and exploratory pu
 
 
 | **Model**               | **Accuracy** | **ROC-AUC** | **Precision (Survived)** | **Recall (Survived)** | **F1-Score (Survived)** |
-| ----------------------- | -----------: | ----------: | -----------------------: | --------------------: | ----------------------: |
+| ----------------------- |:-----------: |:----------: | :-----------------------: |:--------------------: |:----------------------: |
 | **Logistic Regression** |         0.49 |      0.5029 |                     0.22 |                  0.52 |                    0.31 |
 | **Random Forest**       |         0.55 |      0.5010 |                     0.22 |                  0.42 |                    0.29 |
 
@@ -263,7 +263,7 @@ Based on these results, the models are useful for educational and exploratory pu
 
 
 | **Research Question** | **Analysis Used** | **Key Findings / Answer** |
-|---|---|---|
+|---|:---:|---|
 | **1. How are demographic, lifestyle, clinical, and treatment-related variables distributed in the lung cancer dataset?** | Dataset distribution review, descriptive statistics, value counts, percentage tables, histograms, and bar charts. | The dataset contains approximately 890,000 patient records and 17 original features. Numerical variables such as age, BMI, and cholesterol level showed broad distributions. Several categorical variables, including gender, family history, cancer stage, and smoking status, were relatively balanced. This balance may be useful for analysis, but it also suggests that the dataset has a synthetic structure. |
 | **2. What relationship exists between BMI and cholesterol level among lung cancer patients?** | Descriptive statistics, correlation matrix, and scatter plot. | BMI and cholesterol level showed the strongest relationship in the dataset, with a correlation of approximately 0.75. The scatter plot supported this finding by showing that patients with higher BMI values generally had higher cholesterol levels. This was one of the clearest patterns identified in the analysis. |
 | **3. How does survival outcome vary by cancer stage and treatment type?** | Cross-tabulation analysis using row percentages. | Survival percentages were very similar across cancer stages and treatment types. Treatment survival rates were close to 22%, with surgery showing the highest survival percentage at 22.15% and chemotherapy the lowest at 21.87%. Cancer stages also showed minimal differences, with survival ranging from 21.81% in Stage I to 22.14% in Stage IV. This suggests that neither cancer stage nor treatment type showed a strong visible association with survival outcome in this synthetic dataset. |
@@ -274,7 +274,7 @@ Based on these results, the models are useful for educational and exploratory pu
 **Predictive Modeling Questions and Findings**
 
 | **Research Question** | **Analysis Used** | **Key Findings / Answer** |
-|---|---|---|
+|---|:---:|---|
 | **1. Can demographic, lifestyle, clinical, treatment-related, and engineered variables predict patient survival outcome?** | Logistic Regression and Random Forest models. | The selected variables did not strongly predict survival outcome. Logistic Regression achieved an accuracy of 0.49 and a ROC-AUC score of 0.5029. Random Forest achieved a higher accuracy of 0.55, but its ROC-AUC score was 0.5010. Since both ROC-AUC scores were close to 0.50, the models performed nearly as well as random guessing. |
 | **2. Which variables contribute the most to predicting survival outcome?** | Logistic Regression coefficients and Random Forest feature importance. | Random Forest identified variables such as BMI, age, cholesterol level, family history, gender, cirrhosis, asthma, hypertension, and other cancers as relatively important predictors. However, because the overall model performance was weak, these variables should not be interpreted as strong predictors of survival. They contributed to the model, but they did not provide sufficient predictive signal to yield reliable survival estimates. |
 | **3. How does the imbalance in the target variable survived affect model performance?** | Target variable distribution and classification metrics. | The target variable was imbalanced, with 77.98% of patients labeled as did not survive and 22.02% labeled as survived. This imbalance made accuracy alone unreliable, as a model could appear useful even while mostly predicting the majority class. For this reason, precision, recall, F1-score, confusion matrix, and ROC-AUC were used to evaluate performance more accurately. |

@@ -125,23 +125,24 @@ The numerical variable analysis focused on `age`, `bmi`, and `cholesterol_level`
 | 75% | 62.00 | 37.70 | 271.00 |
 | Maximum | 104.00 | 45.00 | 300.00 |
 
+
 ### Age Distribution
 
 <p align="center">
-  <img src="images/Age%20Distribution.png" alt="Age Distribution" width="750">
+  <img src="Age%20Distribution.png" alt="Age Distribution" width="750">
 </p>
 
 ### BMI Distribution
 
 <p align="center">
-  <img src="images/BMI%20Distribution.png" alt="BMI Distribution" width="750">
+  <img src="BMI%20Distribution.png" alt="BMI Distribution" width="750">
 </p>
 
 
-### Cholesterol Level
+### Cholesterol Distribution
 
 <p align="center">
-  <img src="images/Cholesterol%20Distribution.png" alt="Cholesterol Distribution" width="750">
+  <img src="Cholesterol%20Distribution.png" alt="Cholesterol Distribution" width="750">
 </p>
 
 

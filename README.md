@@ -115,7 +115,7 @@ The numerical variable analysis focused on `age`, `bmi`, and `cholesterol_level`
 ### Numerical Variable Summary
 
 | Statistic | Age | BMI | Cholesterol Level |
-|---|---:|---:|---:|
+|---|:---:|:---:|:---:|
 | Count | 890,000 | 890,000 | 890,000 |
 | Mean | 55.01 | 30.49 | 233.63 |
 | Standard Deviation | 9.99 | 8.37 | 43.43 |

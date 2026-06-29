@@ -156,7 +156,7 @@ Overall, the categorical analysis suggests that some variables, such as gender, 
 ### Categorical Variable Summary
 
 | Variable | Category | Count | Percentage |
-|---|---|---:|---:|
+|---|:---:|:---:|:---:|
 | gender | Male | 445,134 | 50.02% |
 | gender | Female | 444,866 | 49.98% |
 | family_history | False | 445,181 | 50.02% |

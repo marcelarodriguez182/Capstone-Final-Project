@@ -182,7 +182,7 @@ There are also weak positive correlations among some comorbidity variables. For 
 ### Correlation Matrix
 
 <p align="center">
-  <img src="./images/Corelation.png" alt="Correlation Matrix" width="750">
+  <img src="Corelation.png" alt="Correlation Matrix" width="750">
 </p>
 
 **6.4 BMI and Cholesterol Relationship**

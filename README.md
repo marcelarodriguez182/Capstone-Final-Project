@@ -182,9 +182,8 @@ There are also weak positive correlations among some comorbidity variables. For 
 ### Correlation Matrix
 
 <p align="center">
-  <img src="Corelation.png" alt="Correlation Matrix" width="750">
+  <img src="images/Corelation.png" alt="Correlation Matrix" width="750">
 </p>
-
 
 **6.4 BMI and Cholesterol Relationship**
 
@@ -193,9 +192,8 @@ The scatter plot between BMI and cholesterol level supports the correlation matr
 ### BMI vs Cholesterol
 
 <p align="center">
-  <img src="BMI%20vs%20Cholesterol.png" alt="BMI vs Cholesterol" width="750">
+  <img src="images/BMI%20vs%20Cholesterol.png" alt="BMI vs Cholesterol" width="750">
 </p>
-
 
 **6.5 Cross Tabulation Analysis**
 

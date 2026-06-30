@@ -129,20 +129,20 @@ The numerical variable analysis focused on `age`, `bmi`, and `cholesterol_level`
 ### Age Distribution
 
 <p align="center">
-  <img src="Age%20Distribution.png" alt="Age Distribution" width="750">
+  <img src="https://github.com/marcelarodriguez182/Capstone-Final-Project/blob/main/images/Age%20Distribution.png?raw=true" alt="Age Distribution" width="750">
 </p>
 
 ### BMI Distribution
 
 <p align="center">
-  <img src="BMI%20Distribution.png" alt="BMI Distribution" width="750">
+  <img src="https://github.com/marcelarodriguez182/Capstone-Final-Project/blob/main/images/BMI%20Distribution.png?raw=true" alt="BMI Distribution" width="750">
 </p>
 
 
-### Cholesterol Level  Distribution
+### Cholesterol Distribution
 
 <p align="center">
-  <img src="Cholesterol%20Distribution.png" alt="Cholesterol Distribution" width="750">
+  <img src="https://github.com/marcelarodriguez182/Capstone-Final-Project/blob/main/images/Cholesterol%20Distribution.png?raw=true" alt="Cholesterol Distribution" width="750">
 </p>
 
 
@@ -182,7 +182,7 @@ There are also weak positive correlations among some comorbidity variables. For 
 ### Correlation Matrix
 
 <p align="center">
-  <img src="Corelation.png" alt="Correlation Matrix" width="750">
+  <img src="https://github.com/marcelarodriguez182/Capstone-Final-Project/blob/main/images/Corelation.png?raw=true" alt="Correlation Matrix" width="750">
 </p>
 
 **6.4 BMI and Cholesterol Relationship**
@@ -192,7 +192,7 @@ The scatter plot between BMI and cholesterol level supports the correlation matr
 ### BMI vs Cholesterol
 
 <p align="center">
-  <img src="https://github.com/marcelarodriguez182/Capstone-Final-Project/blob/main/BMI%20vs%20Cholesterol.png?raw=true" alt="BMI vs Cholesterol" width="750">
+  <img src="https://github.com/marcelarodriguez182/Capstone-Final-Project/blob/main/images/BMI%20vs%20Cholesterol.png?raw=true" alt="BMI vs Cholesterol" width="750">
 </p>
 
 **6.5 Cross Tabulation Analysis**
